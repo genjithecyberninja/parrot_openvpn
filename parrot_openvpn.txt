@@ -1,0 +1,5 @@
+wget -O- https://swupdate.openvpn.net/repos/openvpn-repo-pkg-key.pub | sudo tee /usr/share/keyrings/debian-archive-keyring.gpg
+
+cd to openvpn file
+
+openvpn3 session-start --config lab_genji.ovpn
